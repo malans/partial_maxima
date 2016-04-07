@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import random
 
-class event:
+class Event:
     def __init__(self, index, excitement):
         self.index = index
         self.excitement = excitement
