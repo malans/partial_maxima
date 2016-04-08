@@ -7,14 +7,14 @@ class Event:
         self.excitement = excitement
 
 class EventList:
-    def __init__(self, data_length = 1000000):
+    def __init__(self, data_length = 100000):
         self.data_length = data_length
         self.initialize_data()
         self.precomputed = {}
         self.precompute(0, self.data_length - 1)
         
     def initialize_data(self):
-        self.events = [event(i, random.uniform(0,1)) for i in range(self.data_length)]
+        self.events = [Event(i, random.uniform(0,1)) for i in range(self.data_length)]
         
     def print_events(self):
         for event in self.events:
