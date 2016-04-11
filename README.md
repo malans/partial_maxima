@@ -1,5 +1,5 @@
 # partial_maxima
-algorithm to store partial maxima in an efficient way for fast queries
+algorithm to precompute and store partial maxima in an efficient way for fast queries of maximum key value in a subrange of a list of elements containing keys but sorted by an index.
 ## Synopsis
 This is my code for the solution to the "partial maxima problem" from MIT's Introduction to Algorithm's course, which I self studied.
 
